@@ -13,5 +13,16 @@ const styles = {
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 };
+export const media = {
+  desktop: 2080,
+  laptop: 1680,
+  tablet: 1040,
+  mobile: 696,
+  mobileS: 400,
+};
+
+export function classes(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
 
 export { styles };

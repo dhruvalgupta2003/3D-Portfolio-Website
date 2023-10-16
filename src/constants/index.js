@@ -38,6 +38,15 @@ import {
   scholarly
 } from "../assets";
 
+export const introAnimatedText = [
+  "Developer",
+  "Programmer",
+  "Tech Enthusiast",
+  "Gamer"
+];
+export const shortDescription = "Full Stack Developer and ML Engineer";
+export const myName = "Dhruval Gupta";
+
 export const navLinks = [
   {
     id: "about",
@@ -229,12 +238,12 @@ const projects = [
       },
     ],
     image: scholarly,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dhruvalgupta2003/SIH-2022-TEAM-BLASTERS-DR713",
   },
   {
-    name: "Netflix-Clone",
+    name: "Learning Management System",
     description:
-      "The Netflix clone project involves replicating the main features of the video streaming platform, including a user interface, search functionality, recommendation system, and seamless streaming experience. It will require building a backend system and integrating with third-party APIs.",
+      "The LMS system project involves creating a comprehensive e-learning platform with user-friendly interface, robust course management, and interactive learning features, including integration with external educational resources.",
     tags: [
       {
         name: "react",
@@ -250,7 +259,7 @@ const projects = [
       },
     ],
     image: netflix,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dhruvalgupta2003/Learning-Management-System",
   },
   {
     name: "College Hackathon website",
@@ -271,7 +280,7 @@ const projects = [
       },
     ],
     image: hackathon,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dhruvalgupta2003/Hackathon-website",
   },
 ];
 
