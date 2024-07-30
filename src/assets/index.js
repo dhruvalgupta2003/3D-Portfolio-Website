@@ -37,6 +37,9 @@ import altworld from "./company/altworld.png";
 import connectbees from "./company/connectbees.png";
 import iit from "./company/iit.png";
 import sih from "./company/sih.png";
+import innobit  from "./company/innobit.jpeg"
+import mentoraide from "./company/mentoraide.png"
+import ai from "./company/abhiman_ai.png"
 
 
 import carrent from "./carrent.png";
@@ -84,6 +87,9 @@ export {
   sih,
   connectbees,
   carrent,
+  ai,
+  mentoraide,
+  innobit,
   jobit,
   tripguide,
   hackathon,

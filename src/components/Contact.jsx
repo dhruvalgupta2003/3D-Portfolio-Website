@@ -39,13 +39,13 @@ const Contact = () => {
     // Use emailjs library to send email
     emailjs
       .send(
-        "service_vb7bsst",
+        "service_hiketm6",
         "template_9g2joek",
         {
           from_name: form.name,
           to_name: "Dhruval",
           form_email: form.email,
-          to_email: "erenjeager5602@gmail.com",
+          to_email: " .com",
           message: form.message,
         },
         "1Assp9vQSKyfpCbV4"
@@ -134,15 +134,15 @@ const Contact = () => {
               {loading ? "Sending..." : "Send"}
             </button>
             <a
-              href="https://github.com/dhruvalgupta2003"
+              href="https://x.com/DhruvalGupta4"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 hidden sm:inline-block"
             >
-              GitHub
+              Twitter
             </a>
             <a
-              href="https://www.linkedin.com/in/dhruval-g-98889a159/"
+              href="https://www.linkedin.com/in/dhruvalgupta"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hidden sm:inline-block"

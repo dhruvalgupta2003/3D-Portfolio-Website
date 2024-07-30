@@ -31,18 +31,21 @@ import {
   homians,
   carrent,
   jobit,
+  mentoraide,
+  ai,
+  innobit,
   tripguide,
   threejs,
   hackathon,
   netflix,
-  scholarly
+  scholarly,
 } from "../assets";
 
 export const introAnimatedText = [
   "Developer",
   "Programmer",
   "Tech Enthusiast",
-  "Gamer"
+  "Gamer",
 ];
 export const shortDescription = "Full Stack Developer and ML Engineer";
 export const myName = "Dhruval Gupta";
@@ -94,12 +97,12 @@ const technologies = [
     name: "Firebase",
     icon: firebase,
   },
-  
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -132,24 +135,75 @@ const technologies = [
     name: "Pytorch",
     icon: pytorch,
   },
-  
- 
 ];
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Hominas",
-    icon: homians,
-    iconBg: "#E6DEDD",
-    date: "April 2022 - May 2022",
+    title: "AIML Engineer",
+    company_name: "Innobit Systems, Greater Noida (UP)",
+    icon: innobit,
+    iconBg: "#fff",
+    date: "April 2024 - Present",
     points: [
-      "Developing landing pages from scratch for food delivery startups using the knowledge of HTML, CSS, and JavaScript.",
-      "Collaborating with cross-functional teams including designers,and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Incorporating animations into the design, creating an engaging user experience.",
+      "Developed and maintained web applications using advanced JavaScript and the Flask framework, including hyperspectral image analysis for pattern and mineral detection.",
+      "Implemented robust data management solutions capable of handling large volumes of data efficiently, ensuring responsive design and cross-browser compatibility",
+      "Collaborated with cross-functional teams, including designers, team leaders, and other developers, to create high-quality products, such as the internal appraisal management system using Django.",
+      "Participated in code reviews and provided constructive feedback to other developers, contributing to projects like a demo for student allocation to centers using resource allocation algorithms",
+      "Created comprehensive data science applications for employee productivity analysis, including an ETL pipeline and LLM integration for productivity summary generation and improvement tips.",
     ],
   },
+  {
+    title: "Backend Developer & ML Engineer",
+    company_name: "Abhiman Innovations, Noida(UP)",
+    icon: ai,
+    iconBg: "#111111",
+    date: "Nov 2023 - Dec 2023",
+    points: [
+      "Designed and implemented a Daily Streak Challenge feature, promoting user engagement and retention.",
+      "Developed a dynamic Voting Contest system, enhancing user interaction and community participation.",
+      "Implemented a Contest Recommendation engine to personalize user experience and drive content discovery.",
+    ],
+  },
+  {
+    title: "Backend stack Developer",
+    company_name: "Mentoraide, remote",
+    icon: mentoraide,
+    iconBg: "#111111",
+    date: "July 2023 - Sept 2023",
+    points: [
+      "Developed the complete backend for large-scale webinar hosting with social media application features integration, enabling businesses to host webinars with thousands of attendees without performance issues.",
+      "Worked with Cisco Webex API to integrate Cisco Webex into the webinar hosting app.",
+      "Learned load balancing to handle large traffic and handle request on reverse proxy using NGINX.",
+      "Created and orchestraed a Kubernetes cluster and created a docker copose for all the services.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "City Future Lab, IIT Kharagpur",
+    icon: iit,
+    iconBg: "#111111",
+    date: "Feb 2023 - April 2023",
+    points: [
+      "Developing and maintaining web applications using the knowledge of advanced js and Flask framework.",
+      "Implementing a data management solution that can handle large volumes of data efficiently & ensuring a responsive design and cross-browser compatibility.",
+      "Collaborating with cross-functional teams including designers, team leader , and other developers to create high-quality products.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Founder",
+    company_name: "ConnectBees",
+    icon: connectbees,
+    iconBg: "#111",
+    date: "Feb 2022 - Feb 2023",
+    points: [
+      "Building an AI-based networking platform for Gen Z, leveraging ML and NLP technologies to help users connect with like-minded individuals, form communities, and build meaningful relationships.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using React.js and implementing gamified learning.",
+    ],
+  },
+
   {
     title: "Machine Learning Engineer",
     company_name: "Smart India Hackathon 2022",
@@ -164,29 +218,16 @@ const experiences = [
     ],
   },
   {
-    title: "Founder",
-    company_name: "ConnectBees",
-    icon: connectbees,
-    iconBg: "#111",
-    date: "Feb 2022 - Present",
+    title: "Web Developer",
+    company_name: "Hominas",
+    icon: homians,
+    iconBg: "#E6DEDD",
+    date: "April 2022 - May 2022",
     points: [
-      "Building an AI-based networking platform for Gen Z, leveraging ML and NLP technologies to help users connect with like-minded individuals, form communities, and build meaningful relationships.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing landing pages from scratch for food delivery startups using the knowledge of HTML, CSS, and JavaScript.",
+      "Collaborating with cross-functional teams including designers,and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Developing and maintaining web applications using React.js and implementing gamified learning.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "City Future Lab, IIT Kharagpur",
-    icon: iit,
-    iconBg: "#111111",
-    date: "Feb 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using the knowledge of advanced js and Flask framework.",
-      "Implementing a data management solution that can handle large volumes of data efficiently & ensuring a responsive design and cross-browser compatibility.",
-      "Collaborating with cross-functional teams including designers, team leader , and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Incorporating animations into the design, creating an engaging user experience.",
     ],
   },
 ];
@@ -238,7 +279,8 @@ const projects = [
       },
     ],
     image: scholarly,
-    source_code_link: "https://github.com/dhruvalgupta2003/SIH-2022-TEAM-BLASTERS-DR713",
+    source_code_link:
+      "https://github.com/dhruvalgupta2003/SIH-2022-TEAM-BLASTERS-DR713",
   },
   {
     name: "Learning Management System",
@@ -259,7 +301,8 @@ const projects = [
       },
     ],
     image: netflix,
-    source_code_link: "https://github.com/dhruvalgupta2003/Learning-Management-System",
+    source_code_link:
+      "https://github.com/dhruvalgupta2003/Learning-Management-System",
   },
   {
     name: "College Hackathon website",
